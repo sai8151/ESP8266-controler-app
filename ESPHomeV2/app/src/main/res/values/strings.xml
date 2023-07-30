@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ESP Home</string>
+    <string name="gpio_0_1">GPIO O 1 D3 on</string>
+    <string name="gpio_0_0">GPIO 0 0 D3 off</string>
+    <string name="gpio_2_1">GPIO 2 1 D4 on</string>
+    <string name="gpio_2_0">GPIO 2 0 D4 off</string>
+    <string name="gpio_4_1">GPIO 4 1 D2 on</string>
+    <string name="gpio_4_0">GPIO 4 0 D2 off</string>
+    <string name="gpio_5_1">GPIO 5 1 D1 on</string>
+    <string name="gpio_5_0">GPIO 5 0 D1 off</string>
+    <string name="gpio_16_1">GPIO 16 1 D0 on</string>
+    <string name="gpio_16_0">GPIO 16 0 D0 off</string>
+    <string name="front_url">http://192.168.184.184/gpio0/1</string>
+    <string name="enter_esp8266_ip">Enter ESP8266 IP</string>
+    <string name="next">Next</string>
+    <string name="_192_168_79_182">192.168.79.182</string>
+</resources>
