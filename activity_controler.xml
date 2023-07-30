@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2A2A"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#545454"
+        android:clickable="false"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="gpio_2_1"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_2_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="gpio_2_0"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_0_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="gpio_0_1"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_0_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="gpio_0_0"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="gpio_4_1"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_4_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="gpio_4_0"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="GPIO 5 1 D1 ON"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_5_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="GPIO 5 0 D1 OFF"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_16_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="GPIO 16 1 D0 ON"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gpio_16_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#545454"
+            android:text="GPIO 16 0 D0 OFF"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#484848"
+            app:cornerRadius="24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbars="vertical"
+                android:text="LOG"
+                android:textColor="#89A0E6"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:verticalScrollbarPosition="right" />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
