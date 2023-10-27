@@ -14,3 +14,5 @@
 - [ ] Auto connect to controller
 
 **Full Changelog**: https://github.com/sai8151/ESP8266-controler-app/commits/esp-controle-app
+
+Java, html, iot, c++, css, js.
